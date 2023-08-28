@@ -32,7 +32,7 @@ constructor(x,y){
 }
 
 draw(){ 
-    image(ship_0 ,200,300)
+    image(ship_0 ,this.x,this.y)
 }
 move(){
     if (keyIsDown(LEFT_ARROW)){
